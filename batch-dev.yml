@@ -1,11 +1,13 @@
 ###batch-dev
+server.port: 8082
+
 spring:
   datasource:
-    hikari:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/batch?serverTimezone=UTC&characterEncoding=UTF-8
-      username: findear
-      password: findear
-  batch:
-    jdbc:
-      initialize-schema: always
+    url: jdbc:mysql://localhost:3306/batch?serverTimezone=UTC&characterEncoding=UTF-8
+    username: findear
+    password: findear
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    org.hibernate.SQL: debug
