@@ -8,6 +8,10 @@ spring:
     password: findear
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9200
+
 logging:
   level:
     org.hibernate.SQL: debug
