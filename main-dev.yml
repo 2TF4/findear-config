@@ -3,10 +3,10 @@ server.port: 8080
 
 spring:
   datasource:
-    url: jdbc:mariadb://mariadb:3306/main
+    url: jdbc:mariadb://j10a706.p.ssafy.io:3300/main
     username: findear
     password: findear
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mariadb.cj.jdbc.Driver
 
 
   servlet:
