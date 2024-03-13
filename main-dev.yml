@@ -4,9 +4,9 @@ server.port: 8080
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/hak?serverTimezone=UTC&characterEncoding=UTF-8
-    username: hak
-    password: hak
+    url: jdbc:mysql://localhost:3306/findear?serverTimezone=UTC&characterEncoding=UTF-8
+    username: findear
+    password: findear
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   servlet:
