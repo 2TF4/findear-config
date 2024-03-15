@@ -8,13 +8,11 @@ spring:
     password: findear
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-#  data:
-#    elasticsearch:
-#      cluster-nodes: j10a706.p.ssafy.io:3301
-#      cluster-nodes: localhost:9200
 logging:
   level:
     org.hibernate.SQL: debug
 
 my:
   secret-key: Mru9QcwOF3pg6njeJk5q9Paa8qRh2tq1sJV6KBS2uC7JPiu6cCjc7VTSySPWjbXZ05mCvq25ZwvwQ%2BR2OEQcMg%3D%3D
+  elasticsearch-port: j10a706.p.ssafy.io:3301
+
