@@ -8,7 +8,6 @@ spring:
     password: findear
     driver-class-name: org.mariadb.jdbc.Driver
 
-
   servlet:
     multipart:
       enabled: true
@@ -17,11 +16,16 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     properties:
       hibernate:
         default_batch_fetch_size: 100
     open-in-view: false
+    
+  data:
+    redis:
+      host: localhost
+      port: 6379
 
 logging:
   level:
