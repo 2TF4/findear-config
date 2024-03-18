@@ -3,7 +3,7 @@ server.port: 8080
 
 spring:
   datasource:
-    url: jdbc:mariadb://j10a706.p.ssafy.io:3300/main
+    url: jdbc:mariadb://mariadb-dev:3306/main
     username: findear
     password: findear
     driver-class-name: org.mariadb.jdbc.Driver
@@ -24,7 +24,7 @@ spring:
     
   data:
     redis:
-      host: localhost
+      host: redis-dev
       port: 6379
 
 logging:
