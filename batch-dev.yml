@@ -8,6 +8,12 @@ spring:
     password: findear
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: false
+
 logging:
   level:
     org.hibernate.SQL: debug
@@ -15,4 +21,3 @@ logging:
 my:
   secret-key: Mru9QcwOF3pg6njeJk5q9Paa8qRh2tq1sJV6KBS2uC7JPiu6cCjc7VTSySPWjbXZ05mCvq25ZwvwQ%2BR2OEQcMg%3D%3D
   elasticsearch-port: elastic-search-dev:9200
-
