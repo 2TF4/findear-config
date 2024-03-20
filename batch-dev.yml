@@ -3,7 +3,7 @@ server.port: 8082
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/batch?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://mariadb-dev:3306/batch?serverTimezone=UTC&characterEncoding=UTF-8
     username: findear
     password: findear
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -14,5 +14,5 @@ logging:
 
 my:
   secret-key: Mru9QcwOF3pg6njeJk5q9Paa8qRh2tq1sJV6KBS2uC7JPiu6cCjc7VTSySPWjbXZ05mCvq25ZwvwQ%2BR2OEQcMg%3D%3D
-  elasticsearch-port: j10a706.p.ssafy.io:3301
+  elasticsearch-port: elastic-search-dev:9200
 
