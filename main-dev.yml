@@ -23,6 +23,11 @@ spring:
         default_batch_fetch_size: 100
     open-in-view: false
 
+  data:
+    redis:
+      host: redis-dev
+      port: j10a706.p.ssafy.io:3303
+
 logging:
   level:
     org.hibernate.SQL: debug
