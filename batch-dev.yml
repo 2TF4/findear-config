@@ -10,7 +10,7 @@ spring:
 
   batch:
     jdbc:
-      initialize-schema: none
+      initialize-schema: create
     job:
       enabled: false
 
