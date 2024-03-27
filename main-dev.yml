@@ -27,7 +27,7 @@ spring:
     
   data:
     redis:
-      host: localhost
+      host: redis-dev
       port: 6379
 
 logging:
