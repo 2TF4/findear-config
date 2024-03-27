@@ -27,8 +27,8 @@ spring:
     
   data:
     redis:
-      host: redis-dev
-      port: 6379
+      host: j10a706.p.ssafy.io
+      port: 3303
 
 logging:
   level:
