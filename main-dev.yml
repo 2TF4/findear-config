@@ -3,7 +3,7 @@ server.port: 8080
 
 spring:
   datasource:
-    url: jdbc:mariadb://mariadb-dev:3306/main
+    url: jdbc:mariadb://mariadb-dev:3300/main
     username: findear
     password: findear
     driver-class-name: org.mariadb.jdbc.Driver
