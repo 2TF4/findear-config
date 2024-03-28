@@ -3,10 +3,14 @@ server.port: 8080
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/main?serverTimezone=UTC&characterEncoding=UTF-8
+    #url: jdbc:mysql://localhost:3306/main?serverTimezone=UTC&characterEncoding=UTF-8
+    #username: findear
+    #password: findear
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mariadb://mariadb-dev:3306/main
     username: findear
     password: findear
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.mariadb.jdbc.Driver
 
 
   servlet:
@@ -17,7 +21,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     properties:
       hibernate:
         default_batch_fetch_size: 100
