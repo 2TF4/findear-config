@@ -3,10 +3,11 @@ server.port: 8080
 
 spring:
   datasource:
-    url: jdbc:mariadb://mariadb-dev:3300/main
+    url: jdbc:mariadb://j10a706.p.ssafy.io:3300/main # AWS DB
     username: findear
     password: findear
     driver-class-name: org.mariadb.jdbc.Driver
+
     #url: jdbc:mysql://localhost:3306/main?serverTimezone=UTC&characterEncoding=UTF-8
     #username: findear
     #password: findear
