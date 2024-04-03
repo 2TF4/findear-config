@@ -1,6 +1,8 @@
 ###main-dev
 server.port: 8080
 
+server.servlet.encoding.force-response: true
+
 spring:
   datasource:
     url: jdbc:mariadb://j10a706.p.ssafy.io:3300/main # AWS DB
